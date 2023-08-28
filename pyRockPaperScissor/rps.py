@@ -3,6 +3,8 @@ from random import choice
 choose = ['rock', 'paper', 'scissors']
 
 computer_choice = choice(choose)
+print('computer choose: ', computer_choice)
+# = random.choice(list) ==> works as well
 user_choice = input('Do you want rock, paper or scissors?\n')
 
 if computer_choice == user_choice:
